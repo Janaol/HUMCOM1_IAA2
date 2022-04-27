@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container{
+    margin: 20px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.a1{
+    background: palegreen;
+    position: relative;
+    flex: 1;
+    max-width: auto;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+.a2{
+    background: plum;
+    position:relative;
+    flex: 1;
+    max-width: auto;
+    height: 200px;
+    margin: 10px;
+    border-radius: 0 0 5px black;
+}
+.a3{
+    background: powderblue;
+    position:relative;
+    flex: 1;
+    max-width: auto;
+    height: 200px;
+    margin: 10px;
+    border-radius: 0 0 5px black;
+}
+.a4{
+    background: palegoldenrod;
+    position:relative;
+    flex: 1;
+    max-width: auto;
+    height: 200px;
+    margin: 10px;
+    border-radius: 0 0 5px black;
+}
+
+@media(max-width:768px){
+    .a1{
+        flex: 100%;
+        max-width: 768px;
+    }
+    .a2{
+        flex: 100%;
+        max-width: 768px;
+    }
+    .a3{
+        flex: 100%;
+        max-width: 768px;
+    }
+    .a4{
+        flex: 35%;
+        padding: 25px;
+        border-left: none;
+    }
+}
