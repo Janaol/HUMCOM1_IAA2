@@ -1,16 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Setting up my site</title>
-</head>
-<body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Ranjana Galangco">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Finals Exam - Ranjana Galangco</title>
+        <link rel="stylesheet" type="text/css" href="Final Exam.css">
+        <script type="text/javascript" src="Final Exam.js">
+        </script>
+    </head>
+    <body>
+        <header>
+            <a href="#sec1" class="logo">SELENAIA</a>
+            <ul>
+                <li><a href="#Home" class="active">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#Discover">Discover</a></li>
+                <li><a href="#Travel">Travel</a></li>
+                <li><a href="#References">References</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="stars.png" id="stars">
+            <img src="moon.png" id="moon">
+            <h2 id="text">SELENAIA</h2>
+            <a href="#sec1" id="btn">Explore</a>
+            <img src="mountains_behind.png" id="mountains_behind">
+            <img src="mountains_front.png" id="mountains_front">
+        </section>
+        <div class="sec" id="sec1">
+            <h2>SELENAIA ARCHITECTS</h2>
+            <p>Sergey Makhno is a modern Ukrainian designer, founder, and director of Sergey Makhno Architects.
 
-<h1>Human Computer Interaction - HUMCOM1 IAA2</h1>
-<h2>by: Ranjana Galangco </h2>
-<h3>BSCS </h3>
-<h4>First Year </h4>
-<h5>Baguio City </h5>
-<h6>January 24 2022 </h6>
-<p>This is a sample web page</p>
-</body>
+                Sergey Makhno graduated from Kyiv National University of Construction and Architecture and from Academic 
+                School of Design in Moscow. In 2003, intuitively understanding that future lies in design.
+                <br><br>
+                Now, Sergey Makhno creates collections of unique objects, successfully builds houses, hotels and cottage towns, implements 
+                interior spaces for apartments, restaurants, offices, and boutiques with his personally designed furniture and décor elements,
+                and engages in social projects. The main directions for Makhno Architects are contemporary minimalism, eclecticism, and loft styles.
+                <br><br>
+                By the age of thirty-three, Sergey Makhno had conducted his first personal exhibition of interior design objects from a limited series
+                 “Life of Ideas”. In addition, with this exhibition, the designer presented a same-named book and a movie.</p>
+        </div>
+        <div class="sec" id="About">
+            <h2>NOCTURNAL ARCHITECTURE</h2>
+            <p>As artificial lighting became a thing of the 19th and 20th centuries, architects were fast enough to employ it as 
+                an element incorporated into the design of high-rise buildings. At the same time, new technologies, indeed, enabled 
+                construction of higher and higher buildings. Skyscrapers started to include lights from the building's interior, as well 
+                as additional lights on the face or its outlining elements, became trending the same.
+                <br><br>
+                This trend became known as the architecture of the night, or nocturnal architecture, where the emphasis was heavily put 
+                on the night lighting. Architects even started to use lights deliberately and soon most high-rise buildings and commercial
+                 edifices provided a new face to city lights. This architectural characteristic persisted through the 1920s and 1930s, and then,
+                  it was revived once again through the 1950s and 1960s.               
+                </p>
+        </div>
+
+            <div class="row" id="Gallery"> 
+                <div class="column">
+                  <img src="https://visualizingarchitecture.com/wp-content/uploads/2014/11/BCC_Night_8_Night_Architecture_Rendering_Illustration.jpg" style="width:100%">
+                  <img src="https://images.ctfassets.net/3s5io6mnxfqz/7yZUeAFXq7gYSYj5FzHiVI/b644f21a30461bc61d975851f18b4a69/photo-of-person-holding-dslr-camera-2651248.jpg?fm=jpg&w=800&fl=progressive" style="width:100%">         
+                </div>
+                <div class="column">
+                  <img src="https://rachyjm.files.wordpress.com/2011/09/night-architecture2.jpg" style="width:100%">
+                  <img src="https://res-3.cloudinary.com/the-university-of-melbourne/image/upload/s--QziqqmNb--/c_limit,f_auto,q_75,w_892/v1/pursuit-uploads/c2f/7e0/eb9/c2f7e0eb931c9cf93bab828b7b2ab7b13479dd804e2bcf2a3e7836c95616.jpg" style="width:100%">             
+                </div>  
+                <div class="column">
+                    <img src="https://i.insider.com/57acde9ece38f284328b61c5?width=600&format=jpeg&auto=webp" style="width:100%">
+                    <img src="https://www.re-thinkingthefuture.com/wp-content/uploads/2021/05/A4191-What-is-Nocturnal-architecture-Image5.jpg" style="width:100%">
+                </div>
+              </div>
+
+            <div class="sec2" id="Discover">
+            <h2>SIGHTS TO SEE</h2>
+            <p>Hover over the name of places to view description</p>
+            </div>
+            <div class="container">
+            <div class="tab">
+                <button class="tablinks" onmouseover="openCity(event, 'Singapore')">Helix Bridge, Singapore</button>
+                <button class="tablinks" onmouseover="openCity(event, 'Skorea')">Busan Cinema Center, South Korea</button>
+                <button class="tablinks" onmouseover="openCity(event, 'China')">Beijing National Aquatics Center, China</button>
+              </div>
+              
+              <div id="Singapore" class="tabcontent">
+                <h3>Helix Bridge, Singapore</h3>
+                <p>The design consortium is an international team comprising Australian architects the Cox Architecture and engineers Arup, 
+                    and Singapore based Architects 61.The Land Transport Authority claimed it is a world first in architectural and engineering
+                    bridge design. It won the 'World's Best Transport Building' award at the World
+                    Architecture Festival Awards in the same year.
+                    <br><br>
+                    Canopies (made of fritted-glass and perforated steel mesh) are incorporated along parts of 
+                    the inner spiral to provide shade for pedestrians. The bridge has four viewing platforms
+                    sited at strategic locations which provide stunning views of the Singapore skyline and
+                    events taking place within Marina Bay.At night, the bridge will be illuminated by a 
+                    series of lights that highlight the double-helix structure, thereby creating a special
+                    visual experience for the visitors.</p>
+              </div>
+              
+              <div id="Skorea" class="tabcontent">
+                <h3>Busan Cinema Center, South Korea</h3>
+                <p>Architecture and Cinema - the Main Roof – The dynamic LED lighting surface covering the undulating ceilings of the outdoor 
+                    roof canopies gives the Busan Cinema Center its iconographic feature. Artistic lighting programs tailored to 
+                    events of the BIFF or the Municipality of Busan can be created by visual artists and displayed across the
+                    ceiling in full motion graphics. Imbedded in the architecture the lighting surfaces serve as a communication
+                     platform for the content of the Busan Cinema Center and create a memorable atmosphere.
+                    <br><br>
+                    The Double Cone is the symbolic landmark entrance element to the Busan Cinema Center and connects the
+                     Cinema Mountain and the BIFF Hill. The Double Cone also is the only vertical structural support for the 
+                     large cantilevered roof acting as a large, singular column.
+                    </p> 
+              </div>
+              
+              <div id="China" class="tabcontent">
+                <h3>Beijing National Aquatics Center, China</h3>
+                <p>Comprising a steel space frame, it is the largest ETFE-clad structure in the world with over 100,000 m² 
+                    of ETFE pillows that are only 0.2 mm (1/125 of an inch) in total thickness. The ETFE cladding,
+                    supplied and installed by the firm Vector Foiltec, allows more light and heat penetration than traditional glass, 
+                    resulting in a 30% decrease in energy costs. This choice was made in view of Beijing's goal of presenting a fully 
+                    "green" Olympic Games, with zero net growth in total carbon emissions. 
+                    <br><br>
+                    The outer wall is based on the Weaire-Phelan structure, a structure devised from the natural pattern of bubbles in soap lather.
+                    In the true Weaire-Phelan structure the edge of each cell is curved in order to maintain 109.5 degree angles at each vertex 
+                    (satisfying Plateau's rules), but of course as a structural support system each beam was required to be straight so as to better resist axial 
+                    compression. </p>
+              </div>
+
+              <div class="image1" id="Travel">
+                <img src="https://www.essentialhome.eu/inspirations/wp-content/uploads/2016/12/Helix-Bridge-the-spectacular-bridge-of-Singapore-1.jpeg" alt="Singapore" class="photo">
+                <div class="overlay">
+                <div class="text">Helix Bridge</div>
+                </div>
+              </div>
+
+              <div class="image2" id="Travel">
+                <img src="https://static.thousandwonders.net/Busan.Cinema.Center.original.12300.jpg" alt="Singapore" class="photo2">
+                <div class="overlay1">
+                <div class="text1">Busan Cinema Center</div>
+                </div>
+              </div>
+
+              <div class="image3" id="Travel">
+                <img src="https://www.cscecos.com/upload/images/20160115/%E6%9C%AA%E6%A0%87%E9%A2%98-26025338.jpg" alt="Singapore" class="photo3">
+                <div class="overlay2">
+                <div class="text1">Beijing National Aquatics Center</div>
+                </div>
+              </div>
+            
+              <div class="clearfix"></div>
+              </div>
+              <article class="refs" id="References">
+                <h1>References</h1>
+                <article class="ref1">
+                  <h2>Architecture at Night</h2>
+                  <p>https://www.ba-bamail.com/design-and-photography/these-buildings-are-amazing-when-night-falls/</p>
+                </article>
+                <article class="ref1">
+                  <h2>Nocturnal Architecture</h2>
+                  <p>https://www.re-thinkingthefuture.com/architectural-styles/a4191-what-is-nocturnal-architecture/</p>
+                </article>
+                <article class="ref1">
+                  <h2>Parallax Scrolling</h2>
+                  <p>https://www.youtube.com/watch?v=4OiNwNWHGyo</p>
+                </article>
+              </article>
+              
+              <footer>
+                <p id="Contact">Contact<br>
+                <a href="https://www.facebook.com/ranjana.galangco">Ranjana Galangco</a></p>
+                <a href="https://www.facebook.com/ranjana.galangco">20070225@s.ubaguio.edu</a></p>
+              </footer>
+
+              <script>
+              function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+              }
+              </script>
+
+    </body>
 </html>
